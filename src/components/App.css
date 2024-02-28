@@ -19,12 +19,25 @@ body {
 }
 
 .header {
-  background-color: #3498db;
+  background: linear-gradient(to right,   
+  #000000 0%,       /* Black */
+  #001f3f 10%,      /* Dark blue */
+  #004080 20%,      /* Medium blue */
+  #0066bf 30%,      /* Blue */
+  #0089ff 40%,      /* Light blue */
+  #4da6ff 50%,      /* Lighter blue */
+  #99c2ff 60%,      /* Very light blue */
+  #ccebff 70%,      /* Extremely light blue */
+  #b3d9ef 80%       /* Slightly darker blue */
+  );
   padding: 20px;
   color: white;
   background-size: cover;
   background-position: center;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 .logo {
   height: 60px;
