@@ -1,0 +1,86 @@
+/* Quizzes.css */
+
+
+/* Answer labels styles */
+label {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: -5%;
+}
+
+.quiz-slide ul {
+  list-style: none;
+  padding: 10; 
+}
+
+.selected {
+    background-color: #3498db;
+    color: white;
+  }
+
+  
+
+  /* Quiz buttons styles*/
+  .quiz-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quiz-buttons button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .quiz-buttons button:hover {
+    background-color: #217dbb;
+  }
+
+/* Left and Right slider buttons */
+.quizzes-container .slick-prev,
+.quizzes-container .slick-next {
+ margin-top: 10px;
+ margin-left: 18px;
+ margin-right: 18px;
+}
+
+.quizzes-container .slick-prev:before,
+.quizzes-container .slick-next:before {
+  color: #348047; 
+}
+
+.quizzes-container .slick-prev:hover:before,
+.quizzes-container .slick-next:hover:before {
+  color: red; 
+}
+
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    width: 50%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #9b59b6;
+  }
+  
+  
