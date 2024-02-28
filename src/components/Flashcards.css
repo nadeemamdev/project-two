@@ -1,0 +1,24 @@
+/* Flashcards.css */
+
+/* General Styling */
+.flashcards-container {
+    margin-bottom: 50px;
+}
+
+/* Left and Right slider buttons */
+.flashcards-container .slick-prev,
+.flashcards-container .slick-next {
+  margin-top: -40px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.flashcards-container .slick-prev:before,
+.flashcards-container .slick-next:before {
+  color: #9b59b6; 
+}
+
+.flashcards-container .slick-prev:hover:before,
+.flashcards-container .slick-next:hover:before {
+  color: red; 
+}
