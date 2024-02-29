@@ -5,6 +5,7 @@ import Flashcards from './components/Flashcards';
 import Quizzes from './components/Quizzes';
 import Introduction from './components/Introduction';
 import Resources from './components/Resources';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -70,6 +71,11 @@ function App() {
          {/* Resources Section */}
           <div className="section">
             <Resources />
+          </div>
+
+        {/* Contact Form Sectionb*/}
+        <div className = "section">
+          <ContactForm/>
           </div>
 
         </main>
