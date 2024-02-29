@@ -62,3 +62,10 @@
   .thumbnail-image:hover {
     transform: scale(1.05);
   }
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .channel-column {
+    flex-basis: calc(100% - 20px); /* One column per row for smaller screens */
+  }
+}

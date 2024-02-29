@@ -74,16 +74,23 @@ body {
   cursor: pointer;
 }
 
-.navbar a {
-  text-decoration: none;
+/* Navigation bar styles */
+
+.navbar .nav-item {
+  font-size: 18px;
+  font-weight: bold;
   color: white;
-  font-size: 16px;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-.navbar a:hover {
-  color: #ecf0f1;
+.navbar .nav-item:hover {
+  color: rgb(84, 14, 84);
+  text-shadow: 0 0 10px white;
 }
+
+
+
+/* Main content styles */
 
 .main-content {
   margin-top: 1%;
