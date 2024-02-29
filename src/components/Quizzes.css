@@ -12,6 +12,16 @@ label {
   margin-top: 5%;
   margin-right: 10%;
   margin-left: -5%;
+  background-color: white;
+}
+
+label:hover {
+  background-color: #3498db;
+  transform: scale(1.05); /* Scale up on hover */
+}
+.quiz-slide p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .quiz-slide ul {
