@@ -24,7 +24,7 @@ const Flashcards = ({ sectionName }) => {
   return (
     <div className="flashcards-container">
       <h2>Flashcards</h2>
-      <button onClick={toggleGallery}>
+      <button className='togglebutton' onClick={toggleGallery}>
         {showGallery ? 'Hide' : 'Show'}
       </button>
       {showGallery && (
