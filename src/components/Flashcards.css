@@ -5,7 +5,25 @@
     margin-bottom: 50px;
 }
 
-/* Left and Right slider buttons */
+/* Buttons */
+.flashcards-container .togglebutton {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 30px;
+  margin-top: 1%;
+  border-radius: 4px;
+  background-color: #3cb6a6;
+}
+
+.flashcards-container .togglebutton:hover {
+  box-shadow: none;
+  cursor: pointer;
+  background-color: #9b59b6;
+}
+
 .flashcards-container .slick-prev,
 .flashcards-container .slick-next {
   margin-top: -40px;
@@ -15,10 +33,11 @@
 
 .flashcards-container .slick-prev:before,
 .flashcards-container .slick-next:before {
-  color: #9b59b6; 
+  color: #348047; 
+
 }
 
 .flashcards-container .slick-prev:hover:before,
 .flashcards-container .slick-next:hover:before {
-  color: red; 
+  color: #9b59b6; 
 }

@@ -12,7 +12,7 @@ const Resources = () => {
 
   return (
     <div>
-      <h2>Resources</h2>
+      <h2>🔗 Resources</h2>
       <ul>
         {resourcesList.map((resource, index) => (
           <li key={index}>
