@@ -1,0 +1,31 @@
+/* StackOverflowQuestions.css */
+.stack-overflow-questions {
+    max-height: 500px; 
+    overflow-y: auto;
+  }
+  
+  .stack-overflow-questions ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .stack-overflow-questions li {
+    margin-bottom: 15px;
+  }
+  .stack-overflow-questions p {
+    color: purple;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  .stack-overflow-questions a {
+    color: darkgray;
+    border: solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
