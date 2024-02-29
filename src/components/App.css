@@ -103,8 +103,8 @@ body {
   width: 320px;
   margin: 20px;
   padding: 20px;
-  background-color: #ffffff;
   border: 1px solid #e0e0e0;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -116,7 +116,7 @@ body {
 }
 
 .section p {
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
 }
 
@@ -136,3 +136,4 @@ body {
 footer {
   color: white;
 }
+

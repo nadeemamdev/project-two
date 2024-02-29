@@ -118,8 +118,8 @@ function App() {
               <div className="section">
                 <Resources />
               </div>
-     {/* Stack Overflow Section */}
-     <div className="section">
+          {/* Stack Overflow Section */}
+              <div className="section">
                 {loading ? (
                   <p>Loading Stack Overflow questions...</p>
                 ) : (

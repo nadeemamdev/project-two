@@ -3,12 +3,15 @@
 /* General Styling */
 .flashcards-container {
     margin-bottom: 50px;
+    background-color: white;
+    border-radius: 5px;
+    min-height: max-content;
 }
 
 /* Buttons */
 .flashcards-container .togglebutton {
   color: white;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5z);;
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   width: 80px;

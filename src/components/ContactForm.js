@@ -1,6 +1,8 @@
 // ContactForm.js
 import React, { useState } from 'react';
 import './ContactForm.css';
+import contactUsGif from '../../src/email-gif.gif'; 
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -21,23 +23,33 @@ const ContactForm = () => {
     window.location.href = mailtoLink;
   };
 
-  return (
+return (
     <div className="contact-form">
-      <h2>📧 Contact Us</h2>
+      <h2>📧 Contact Us
+        <img src={contactUsGif} alt="Contact Us GIF" style={{ width: '50%', height: 'auto' }} />
+      </h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name" className="form-label">Name:</label>
+          <div className="form-title">Name:</div>
           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="form-input" required />
         </div>
 
         <div className="form-group">
-          <label htmlFor="email" className="form-label">Email:</label>
+          <div className="form-title">Email:</div>
           <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="form-input" required />
         </div>
 
         <div className="form-group">
-          <label htmlFor="message" className="form-label">Message:</label>
-          <textarea id="message" name="message" rows="4" value={formData.message} onChange={handleChange} className="form-input" required></textarea>
+          <div className="form-title">Message:</div>
+          <textarea
+            id="message"
+            name="message"
+            rows="10" 
+            value={formData.message}
+            onChange={handleChange}
+            className="form-input"
+            required
+          ></textarea>
         </div>
 
         <button type="submit" className="form-button">Submit</button>

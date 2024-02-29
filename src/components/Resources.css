@@ -1,0 +1,19 @@
+/* Resources.css */
+
+/* Remove the dots before the list items and adjust padding */
+.resources .title {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style links inside h2 */
+.resources h2 a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Optionally, add some styling for better readability */
+.resources h2 {
+    color: #333;
+    margin-bottom: 10px;
+}

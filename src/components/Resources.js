@@ -1,22 +1,42 @@
-// Resources.js
-const React = require('react');
+import React, { useState } from 'react';
+import './Resources.css';
 
 const Resources = () => {
   // Placeholder for resources logic
-  const resourcesList = [
-    { title: 'Placeholder Resource 1', link: 'https://example.com/resource1' },
-    { title: 'Placeholder Resource 2', link: 'https://example.com/resource2' },
-    { title: 'Placeholder Resource 3', link: 'https://example.com/resource3' },
-    { title: 'Placeholder Resource 4', link: 'https://example.com/resource4' },
+  const generalResources = [
+    { title: 'MDN Web Docs', link: 'https://developer.mozilla.org/' },
+    { title: 'Stack Overflow', link: 'https://stackoverflow.com/' },
+    { title: 'W3Schools', link: 'https://www.w3schools.com/' },
+    { title: 'CSS-Tricks', link: 'https://css-tricks.com/' },
+    { title: 'freeCodeCamp', link: 'https://www.freecodecamp.org/' },
+    { title: 'GitHub Guides', link: 'https://guides.github.com/' },
+  ];
+
+  const coursesList = [
+    { title: 'Web Development Basics', link: 'https://www.freecodecamp.org/' },
+    { title: 'Git and GitHub', link: 'https://lab.github.com/' },
+    { title: 'JavaScript Basics', link: 'https://javascript.info/' },
+    { title: 'React Course', link: 'https://www.codecademy.com/learn/react-101' },
+    { title: 'Python Programming', link: 'https://www.codecademy.com/learn/learn-python-3' },
+    { title: 'Data Science with Kaggle', link: 'https://www.kaggle.com/learn/overview' },
   ];
 
   return (
     <div>
-      <h2>🔗 Resources</h2>
+      <h2>🔗 General Resources</h2>
       <ul>
-        {resourcesList.map((resource, index) => (
+        {generalResources.map((resource, index) => (
           <li key={index}>
             <a href={resource.link} target="_blank" rel="noopener noreferrer">{resource.title}</a>
+          </li>
+        ))}
+      </ul>
+      <br></br>
+      <h2>🎓 Courses</h2>
+      <ul>
+        {coursesList.map((course, index) => (
+          <li key={index}>
+            <a href={course.link} target="_blank" rel="noopener noreferrer">{course.title}</a>
           </li>
         ))}
       </ul>
