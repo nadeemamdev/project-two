@@ -35,7 +35,7 @@ const Introduction = () => {
     <div className="introduction-container">
     <p>
        Have you ever wondered about coding and web development? <br></br>Explore this page to find out if it's the right path for you!
-       Take this Web Dev Quiz to see if it's your thing! Also, check out these cool videos to get a taste of the coding world.<br/><a href="https://www.gyfted.me/career-quiz/web-developer" target="_blank" rel="noopener noreferrer">Web Dev Quiz</a>
+       Take this Web Dev Quiz to see if it's your thing!<br></br> Also, check out these cool videos to get a taste of the coding world.<br/><a href="https://www.gyfted.me/career-quiz/web-developer" target="_blank" rel="noopener noreferrer">Web Dev Quiz</a>
     </p>
 
       <div className="channel-grid">

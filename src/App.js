@@ -65,6 +65,38 @@ function App() {
                 <Flashcards sectionName="HTML" />
                 <Quizzes sectionName="HTML" />
               </div>
+
+              {/* CSS Section */}
+              <div className="section">
+                <h2 className='title'>CSS</h2>
+                <p>Dive into the world of Cascading Style Sheets.</p>
+                <Flashcards sectionName="CSS" />
+                <Quizzes sectionName="CSS" />
+              </div>
+
+              {/* JavaScript Section */}
+              <div className="section">
+                <h2 className='title'>JavaScript</h2>
+                <p>Master the scripting language for web development.</p>
+                <Flashcards sectionName="JavaScript" />
+                <Quizzes sectionName="JavaScript" />
+              </div>
+
+              {/* React Section */}
+              <div className="section">
+                <h2 className='title'>React</h2>
+                <p>Learn about building user interfaces with React.js.</p>
+                <Flashcards sectionName="React" />
+                <Quizzes sectionName="React" />
+              </div>
+
+              {/* Responsive Design Section */}
+              <div className="section">
+                <h2 className='title'>Responsive Design</h2>
+                <p>Discover the principles of creating responsive websites.</p>
+                <Flashcards sectionName="Responsive Design" />
+                <Quizzes sectionName="Responsive Design" />
+              </div>
             </>
           )}
 
@@ -84,7 +116,7 @@ function App() {
 
         {/* Footer */}
         <footer>
-          <p>&copy; 2024 WebDev Learning Hub. All rights reserved.</p>
+          <p>&copy; 2024 WebDev Learning Hub. All rights reserved. Created by Naddem & Meriam</p>
         </footer>
       </div>
     </div>
