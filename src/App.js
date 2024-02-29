@@ -22,7 +22,7 @@ function App() {
 
           {/* General Knowledge Section */}
           <div className="section">
-            <h2 class='title'>General Knowledge</h2>
+            <h2 className='title'>General Knowledge</h2>
             <p>Enhance your overall web development understanding.</p>
             <Flashcards sectionName="General Knowledge" />
             <Quizzes sectionName="General Knowledge" />
@@ -30,7 +30,7 @@ function App() {
 
           {/* HTML Section */}
           <div className="section">
-            <h2 class='title'>HTML</h2>
+            <h2 className='title'>HTML</h2>
             <p>Explore the fundamentals of HTML.</p>
             <Flashcards sectionName="HTML" />
             <Quizzes sectionName="HTML" />
@@ -38,7 +38,7 @@ function App() {
 
           {/* CSS Section */}
           <div className="section">
-            <h2 class='title'>CSS</h2>
+            <h2 className='title'>CSS</h2>
             <p>Dive into the world of Cascading Style Sheets.</p>
             <Flashcards sectionName="CSS" />
             <Quizzes sectionName="CSS" />
@@ -46,7 +46,7 @@ function App() {
 
           {/* JavaScript Section */}
           <div className="section">
-            <h2 class='title'>JavaScript</h2>
+            <h2 className='title'>JavaScript</h2>
             <p>Master the scripting language for web development.</p>
             <Flashcards sectionName="JavaScript" />
             <Quizzes sectionName="JavaScript" />
@@ -54,7 +54,7 @@ function App() {
 
           {/* React Section */}
           <div className="section">
-            <h2 class='title'>React</h2>
+            <h2 className='title'>React</h2>
             <p>Learn about building user interfaces with React.js.</p>
             <Flashcards sectionName="React" />
             <Quizzes sectionName="React" />
@@ -62,7 +62,7 @@ function App() {
 
           {/* Responsive Design Section */}
           <div className="section">
-            <h2 class='title'>Responsive Design</h2>
+            <h2 className='title'>Responsive Design</h2>
             <p>Discover the principles of creating responsive websites.</p>
             <Flashcards sectionName="Responsive Design" />
             <Quizzes sectionName="Responsive Design" />
