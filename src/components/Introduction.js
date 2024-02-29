@@ -33,7 +33,11 @@ const Introduction = () => {
 
   return (
     <div className="introduction-container">
-      <h2>YouTube Channels</h2>
+    <p>
+       Have you ever wondered about coding and web development? <br></br>Explore this page to find out if it's the right path for you!
+       Take our Web Dev Quiz to see if it's your thing! Also, check out these cool videos to get a taste of the coding world.<br/><a href="https://www.gyfted.me/career-quiz/web-developer" target="_blank" rel="noopener noreferrer">Web Dev Quiz</a>.
+    </p>
+
       <div className="channel-grid">
         {content.map((channel, index) => (
           <div key={index} className="channel-column">
@@ -43,7 +47,7 @@ const Introduction = () => {
                 <img
                   src={video.thumbnail}
                   alt={`Video ${videoIndex + 1} Thumbnail`}
-                  className="thumbnail-image" // Add this class
+                  className="thumbnail-image"
                 />
               </div>
             ))}
@@ -55,4 +59,3 @@ const Introduction = () => {
 };
 
 export default Introduction;
-

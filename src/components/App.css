@@ -2,20 +2,41 @@
 
 /* General Styling */
 
-.section h2 {
+.section .title {
+  color: #9b59b6;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
   color: #333;
+  background-image: url(../../public/background-image.jpg);
+  background-position: center;
+  background-size: cover;
   }
 
-
+/* Banner Styles */
 .container {
   text-align: center;
-  padding: 20px;
+  padding: 0px;
+}
+
+
+.header p {
+  animation: scrollText 25s linear infinite; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .header {
@@ -67,7 +88,7 @@ body {
 }
 
 .section {
-  width: 300px;
+  width: 380px;
   margin: 20px;
   padding: 20px;
   background-color: #ffffff;
@@ -75,10 +96,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-}
-
-.section:hover {
-  transform: scale(1.05);
 }
 
 .section h2 {
