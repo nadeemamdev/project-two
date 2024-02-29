@@ -1,18 +1,30 @@
 // App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './components/App.css';
 import Flashcards from './components/Flashcards';
 import Quizzes from './components/Quizzes';
 import Introduction from './components/Introduction';
 import Resources from './components/Resources';
 import ContactForm from './components/ContactForm';
+import StackOverflowQuestions from './components/StackOverflowQuestions';
+import fetchStackOverflowData from './components/StackOverflowAPI';
 
 function App() {
   const [activeTab, setActiveTab] = useState('Introduction');
+  const [stackOverflowData, setStackOverflowData] = useState([]);
+  const [loading, setLoading] = useState(true); // Add loading state
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
+  useEffect(() => {
+    // Fetch Stack Overflow data when the component mounts
+    fetchStackOverflowData('javascript')
+      .then((data) => setStackOverflowData(data))
+      .catch((error) => console.error('Error fetching Stack Overflow data:', error))
+      .finally(() => setLoading(false)); // Set loading to false when the request completes
+  }, []);
 
   return (
     <div>
@@ -106,10 +118,19 @@ function App() {
               <div className="section">
                 <Resources />
               </div>
+     {/* Stack Overflow Section */}
+     <div className="section">
+                {loading ? (
+                  <p>Loading Stack Overflow questions...</p>
+                ) : (
+                  <StackOverflowQuestions questions={stackOverflowData} />
+                )}
+              </div>
 
               <div className="section">
                 <ContactForm />
               </div>
+
             </>
           )}
         </main>
