@@ -14,7 +14,8 @@ body {
   background-image: url(../../public/background-image.jpg);
   background-position: center;
   background-size: cover;
-  }
+  background-attachment: fixed;
+}
 
 /* Banner Styles */
 .container {
@@ -22,13 +23,11 @@ body {
   padding: 0px;
 }
 
-
 .header p {
-  animation: scrollText 25s linear infinite; 
+  animation: scrollText 25s linear infinite;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Courier New', Courier, monospace;
 }
-
 
 @keyframes scrollText {
   0% {
@@ -40,16 +39,17 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right,   
-  #000000 0%,       /* Black */
-  #001f3f 10%,      /* Dark blue */
-  #004080 20%,      /* Medium blue */
-  #0066bf 30%,      /* Blue */
-  #0089ff 40%,      /* Light blue */
-  #4da6ff 50%,      /* Lighter blue */
-  #99c2ff 60%,      /* Very light blue */
-  #ccebff 70%,      /* Extremely light blue */
-  #b3d9ef 80%       /* Slightly darker blue */
+  background: linear-gradient(
+    to right,
+    #000000 0%, /* Black */
+    #001f3f 10%, /* Dark blue */
+    #004080 20%, /* Medium blue */
+    #0066bf 30%, /* Blue */
+    #0089ff 40%, /* Light blue */
+    #4da6ff 50%, /* Lighter blue */
+    #99c2ff 60%, /* Very light blue */
+    #ccebff 70%, /* Extremely light blue */
+    #b3d9ef 80% /* Slightly darker blue */
   );
   padding: 20px;
   color: white;
@@ -59,7 +59,6 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
 .logo {
   height: 60px;
 }
@@ -67,18 +66,31 @@ body {
 .navbar {
   background-color: #3498db;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.navbar a {
-  text-decoration: none;
+.navbar div {
+  cursor: pointer;
+}
+
+/* Navigation bar styles */
+
+.navbar .nav-item {
+  font-size: 18px;
+  font-weight: bold;
   color: white;
-  font-size: 16px;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-.navbar a:hover {
-  color: #ecf0f1;
+.navbar .nav-item:hover {
+  color: rgb(84, 14, 84);
+  text-shadow: 0 0 10px white;
 }
+
+
+
+/* Main content styles */
 
 .main-content {
   margin-top: 1%;
@@ -119,4 +131,8 @@ body {
 
 .section a:hover {
   color: #21618c;
+}
+
+footer {
+  color: white;
 }

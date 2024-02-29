@@ -45,7 +45,7 @@ const Quizzes = ({ sectionName }) => {
 
   return (
     <div className="quizzes-container">
-      <h2>Quizzes</h2>
+      <h2>Quiz💡</h2>
       <form onSubmit={handleQuizSubmit}>
         <Slider {...settings} ref={sliderRef}>
           {quizzesData.map((quiz, index) => (
@@ -63,7 +63,7 @@ const Quizzes = ({ sectionName }) => {
             </div>
           ))}
         </Slider>
-        <button type="submit">Submit Quiz</button>
+        <button type="submit">Check Score</button>
       </form>
     </div>
   );
