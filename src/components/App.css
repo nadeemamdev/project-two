@@ -26,7 +26,7 @@ body {
 .header p {
   animation: scrollText 25s linear infinite; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -88,7 +88,7 @@ body {
 }
 
 .section {
-  width: 380px;
+  width: 320px;
   margin: 20px;
   padding: 20px;
   background-color: #ffffff;
