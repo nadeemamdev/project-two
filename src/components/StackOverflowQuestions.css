@@ -1,38 +1,60 @@
 /* StackOverflowQuestions.css */
 
 .stack-overflow-questions {
-    max-height: 700px; 
-    overflow-y: auto;
-  }
+  max-height: 710px; 
+  overflow-y: auto;
+}
 
 .stack-overflow-questions h2 {
   margin-bottom: 10%;
 }  
 
-  .stack-overflow-questions ul {
-    padding: 0;
-    list-style: none;
-    max-width: 300px;
-  }
-  
-  .stack-overflow-questions li {
-    margin-bottom: 15px;
-  }
+.stack-overflow-questions ul {
+  padding: 0;
+  list-style: none;
+  max-width: 300px;
+}
 
-  .stack-overflow-questions p {
-    color: purple;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-  }
+.stack-overflow-questions li {
+  margin-bottom: 15px;
+}
 
-  .stack-overflow-questions a {
-    color: rgb(106, 106, 106);
-    border: solid;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5%;
-  }
-  
+.stack-overflow-questions p {
+  color: purple;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+
+.stack-overflow-questions a {
+  color: #003366;
+  border: solid;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
+  background-color: #99CCFF; 
+  position: relative; 
+}
+
+.stack-overflow-questions a::after {
+  content: ''; 
+  display: block; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0066CC; 
+  color: white;
+  border-radius: 5px; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+
+.stack-overflow-questions a:hover {
+  color: white; 
+}
+

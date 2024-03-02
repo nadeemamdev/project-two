@@ -23,7 +23,7 @@ const Resources = () => {
 
   return (
     <div>
-      <h2>🔗 General Resources</h2>
+      <h2 className="resources-section-title">🔗 General Resources</h2>
       <ul>
         {generalResources.map((resource, index) => (
           <li key={index}>
@@ -32,7 +32,7 @@ const Resources = () => {
         ))}
       </ul>
       <br></br>
-      <h2>🎓 Courses</h2>
+      <h2 className="resources-section-title">🎓 Courses</h2>
       <ul>
         {coursesList.map((course, index) => (
           <li key={index}>
