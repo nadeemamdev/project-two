@@ -26,7 +26,7 @@ const ContactForm = () => {
 return (
     <div className="contact-form">
       <h2>📧 Contact Us
-        <img src={contactUsGif} alt="Contact Us GIF" style={{ width: '50%', height: 'auto' }} />
+      <img className="contact-us-gif" src={contactUsGif} alt="Contact Us GIF" style={{ width: '50%', height: 'auto' }} />
       </h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

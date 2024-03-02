@@ -30,13 +30,19 @@ const Introduction = () => {
     },
     // Add more channels as needed
   ]);
-
   return (
     <div className="introduction-container">
-    <p>
-       Have you ever wondered about coding and web development? <br></br>Explore this page to find out if it's the right path for you!
-       Take this Coding Quiz to see if it's your thing!<br></br> Also, check out these cool videos to get a taste of the coding world.<br/><a href="https://iscodingforyou.com/" target="_blank" rel="noopener noreferrer">Coding Quiz</a>
-    </p>
+      <p>
+        <span className="intro-highlight">
+          <strong>Have you ever wondered about coding and web development?</strong>
+        </span>
+        <br />
+        Explore this page to find out if it's the right path for you!
+        Take this Coding Quiz to see if it's your thing!<br></br>
+        Also, check out these cool videos to get a taste of the coding world.
+        <br />
+        <a href="https://iscodingforyou.com/" target="_blank" rel="noopener noreferrer">Coding Quiz</a>
+      </p>
 
       <div className="channel-grid">
         {content.map((channel, index) => (

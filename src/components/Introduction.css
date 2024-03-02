@@ -16,6 +16,11 @@
   margin-bottom: 20px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.introduction-container .intro-highlight {
+  color: #9b59b6;
 }
 
 
@@ -31,12 +36,13 @@
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
 
 .introduction-container p a:hover {
   box-shadow: none;
   background-color: #9b59b6;
-  border-color: #000;
+  color: white !important;
 }
 
 /* Youtube Videos Styling*/
