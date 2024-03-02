@@ -1,32 +1,38 @@
 /* StackOverflowQuestions.css */
+
 .stack-overflow-questions {
-    max-height: 600px; 
+    max-height: 700px; 
     overflow-y: auto;
   }
-  
+
+.stack-overflow-questions h2 {
+  margin-bottom: 10%;
+}  
+
   .stack-overflow-questions ul {
     padding: 0;
-    margin: 0;
     list-style: none;
-    max-width: 290px;
+    max-width: 300px;
   }
   
   .stack-overflow-questions li {
     margin-bottom: 15px;
   }
+
   .stack-overflow-questions p {
     color: purple;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
   }
 
   .stack-overflow-questions a {
-    color: darkgray;
+    color: rgb(106, 106, 106);
     border: solid;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
   }
   

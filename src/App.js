@@ -137,7 +137,7 @@ function App() {
 
         {/* Footer */}
         <footer>
-          <p>&copy; 2024 WebDev Learning Hub. All rights reserved. Created by Naddem & Meriam</p>
+          <p>&copy; 2024 WebDev Learning Hub. All rights reserved. Created by Nadeem & Meriam</p>
         </footer>
       </div>
     </div>

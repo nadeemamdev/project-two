@@ -9,7 +9,7 @@ const Quizzes = ({ sectionName }) => {
   const quizzesData = getQuizzesData(sectionName);
 
   const [userAnswers, setUserAnswers] = useState(Array(quizzesData.length).fill(null));
-  const sliderRef = useRef(null); // Ref for Slider component
+  const sliderRef = useRef(null); 
 
   const settings = {
     dots: false,
@@ -17,6 +17,7 @@ const Quizzes = ({ sectionName }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true, 
   };
 
   const handleQuizSubmit = (e) => {
@@ -55,6 +56,12 @@ const Quizzes = ({ sectionName }) => {
                 {quiz.options.map((option, optionIndex) => (
                   <li key={optionIndex} onClick={() => handleOptionClick(index, option)}>
                     <label className={userAnswers[index] === option ? 'selected' : ''}>
+                      <input
+                        type="radio"
+                        value={option}
+                        checked={userAnswers[index] === option}
+                        onChange={() => {}}
+                      />
                       {option}
                     </label>
                   </li>
@@ -63,7 +70,9 @@ const Quizzes = ({ sectionName }) => {
             </div>
           ))}
         </Slider>
-        <button type="submit">Check Score</button>
+        <button type="submit" onClick={handleQuizSubmit}>
+          Check Score
+        </button>
       </form>
     </div>
   );
