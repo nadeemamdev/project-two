@@ -47,7 +47,9 @@ A SPA React app that will allow the user to learn about modern web development t
 
 ## About The Project
 
-![WebDev Learning Hub](screenshot(1).gif)
+![WebDev Learning Hub](https://github.com/nadeemamdev/project-two/blob/main/screenshot%20(1).gif?raw=true)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
