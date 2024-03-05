@@ -100,6 +100,7 @@ We are not offering any Licenses for this project at present. If we get enough i
 Nadeem Mahomed and Meriam Bojang Salarzon - test@test.com
 
 Project Link: [https://github.com/nadeemamdev/project-two](https://github.com/nadeemamdev/project-two)
+Deployed App: https://project-two-edx-meriam-and-nadeem.netlify.app/ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
