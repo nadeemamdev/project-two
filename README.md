@@ -46,7 +46,7 @@ A SPA React app that will allow the user to learn about modern web development t
 
 ## About The Project
 
-![WebDev Learning Hub](https://project-two-edx-meriam-and-nadeem.netlify.app/)
+![WebDev Learning Hub][https://project-two-edx-meriam-and-nadeem.netlify.app/](https://github.com/nadeemamdev/project-two/blob/main/screenshot%20(1).gif?raw=true)
 
 
 
