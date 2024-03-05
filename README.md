@@ -47,7 +47,7 @@ A SPA React app that will allow the user to learn about modern web development t
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![WebDev Learning Hub Screenshot](screenshot.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
