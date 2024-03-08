@@ -146,6 +146,7 @@ footer {
 @media only screen and (max-width: 768px) {
   body {
     background-attachment: scroll;
+    background-size: cover;
   }
 
   .header p {
@@ -178,6 +179,7 @@ footer {
 @media only screen and (max-width: 768px) {
   body {
     background-attachment: scroll;
+    background-size: cover;
   }
 
   .header p {
